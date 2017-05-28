@@ -1,0 +1,16 @@
+<?php
+   
+   function sum($a, $b){
+   		return $a + $b;
+   }
+
+   echo gettype(sum(2,3));
+   // integer
+
+   echo gettype(sum("2","3"));
+   // integer
+
+   echo gettype(sum(2.0,3.0));
+   // double
+?>	
+
